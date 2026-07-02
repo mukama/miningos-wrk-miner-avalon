@@ -1,0 +1,13 @@
+{
+  "include": [
+    "workers/**/*.js"
+  ],
+  "exclude": [
+    "workers/**/*.rack.miner.wrk.js"
+  ],
+  "reporter": [
+    "json",
+    "text-summary"
+  ],
+  "all": false
+}
